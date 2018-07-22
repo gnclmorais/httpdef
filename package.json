@@ -1,0 +1,26 @@
+{
+  "name": "httpdef",
+  "version": "0.1.0",
+  "description": "HTTP status code definitions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http",
+    "status",
+    "status-code"
+  ],
+  "author": "Gonçalo Morais <gnclmorais@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.0.0",
+    "minimist": "^1.2.0",
+    "ololog": "^1.1.110"
+  }
+}
